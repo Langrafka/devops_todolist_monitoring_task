@@ -14,5 +14,5 @@ spec:
       - todoapp
   endpoints:
     - port: http
-      interval: 15s
-      path: /api/metrics
+      interval: 10s       # змінили з 15s на 10s
+      path: /metrics      # змінили з /api/metrics на /metrics
